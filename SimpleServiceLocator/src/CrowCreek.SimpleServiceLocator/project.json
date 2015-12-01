@@ -1,0 +1,21 @@
+﻿{
+  "version": "0.1.0-*",
+  "description": "Crow Creek - Simple Service Locator",
+  "authors": [ "Hypnovirus" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/CrowCreek/Simple-Service-Locator",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { },
+    "dotnet": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23409",
+        "System.Collections": "4.0.11-beta-23409",
+        "System.Linq": "4.0.1-beta-23409",
+        "System.Runtime": "4.0.21-beta-23409",
+        "System.Threading": "4.0.11-beta-23409"
+      }
+    }
+  }
+}
