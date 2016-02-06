@@ -87,11 +87,11 @@ namespace CrowCreek.Utilities.SimpleServiceLocator
       }
     }
 
-    public static void ClearServieOverrides()
+    public static void ClearServiceOverrides()
     {
       lock (ConfigurationLock)
       {
-        _serviceOverrides.Clear();
+        _serviceOverrides?.Clear();
         _serviceOverrides = null;
       }
     }
